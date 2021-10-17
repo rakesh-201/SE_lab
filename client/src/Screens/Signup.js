@@ -25,12 +25,12 @@ const Signup = () => {
 
   const submitHandler = useCallback(() => {
     if (
-      username.value == "" ||
-      email.value == "" ||
-      password.value == "" ||
-      cpassword.value == ""
+      username.value === "" ||
+      email.value === "" ||
+      password.value === "" ||
+      cpassword.value === ""
     ) {
-      if (username.value == "") {
+      if (username.value === "") {
         console.log("in");
         setUsername((prev) => ({
           ...prev,
@@ -40,7 +40,7 @@ const Signup = () => {
       } else {
         setUsername((prev) => ({ ...prev, err: false }));
       }
-      if (email.value == "") {
+      if (email.value === "") {
         setEmail((prev) => ({
           ...prev,
           err: true,
@@ -49,7 +49,7 @@ const Signup = () => {
       } else {
         setEmail((prev) => ({ ...prev, err: false }));
       }
-      if (password.value == "") {
+      if (password.value === "") {
         setPassword((prev) => ({
           ...prev,
           err: true,
@@ -58,7 +58,7 @@ const Signup = () => {
       } else {
         setPassword((prev) => ({ ...prev, err: false }));
       }
-      if (cpassword.value == "") {
+      if (cpassword.value === "") {
         setCpassword((prev) => ({
           ...prev,
           err: true,
