@@ -1,0 +1,44 @@
+.cont {
+  background-color: hsl(0, 14%, 85%);
+  height: 150px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont2 {
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+#rod1 {
+  height: 80%;
+  width: 10px;
+  border-radius: 5px;
+}
+
+.content-cont {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.fw-bold {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 4px;
+}
+
+.touchable {
+  text-decoration: none;
+}

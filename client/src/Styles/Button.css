@@ -1,0 +1,10 @@
+.button {
+  padding: 10px;
+  border-radius: 30px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.touchable:hover {
+  opacity: 0.8;
+}
