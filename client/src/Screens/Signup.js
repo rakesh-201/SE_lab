@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import SignUp from "../assets/signup.gif";
 import Input from "../Components/Input";
 import { useHistory } from "react-router-dom";
@@ -94,7 +94,7 @@ const Signup = () => {
 
       history.push("/signin");
     }
-  }, [username, email, password, cpassword]);
+  }, [username, email, password, cpassword, history]);
 
   return (
     <div className="d-flex align-items-center justify-content-center py-5">

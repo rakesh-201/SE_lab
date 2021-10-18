@@ -13,7 +13,7 @@ const HeroPage = () => {
         <Button text="Learn More" color="bg-primary" />
       </div>
       <div className="d-none d-md-block">
-        <img src={home} className="image" />
+        <img src={home} alt="..." className="image" />
       </div>
     </div>
   );

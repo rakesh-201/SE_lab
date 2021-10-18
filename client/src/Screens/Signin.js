@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import SignIn from "../assets/login.gif";
 import Input from "../Components/Input";
-import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../Store/actions/auth";
 import { useHistory } from "react-router-dom";
@@ -39,7 +38,7 @@ const Signin = (props) => {
       dispatch(login());
       history.push("/home");
     }
-  }, [email, password]);
+  }, [email, password, history, dispatch]);
 
   return (
     <div className="d-flex align-items-center justify-content-center py-5">

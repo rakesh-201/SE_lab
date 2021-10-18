@@ -4,7 +4,7 @@ const initialState = {
   auth: false,
 };
 
-export default (state = initialState, actions) => {
+const auth = (state = initialState, actions) => {
   switch (actions.type) {
     case LOGIN:
       state.auth = !state.auth;
@@ -14,3 +14,5 @@ export default (state = initialState, actions) => {
       return state;
   }
 };
+
+export default auth;
