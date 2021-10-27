@@ -1,17 +1,17 @@
 # Blood Bank Management System
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+![developer](https://img.shields.io/badge/Developed%20By%20%3A-TY_IT_SE_Group4-red)
 ---
 ## Screenshots
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage.png?raw=true)
+![homepage snap](https://lh5.googleusercontent.com/O05ywim9Vv-zjqxb7pVWgOrkG9NkdMji_0YkOWUDH8tRbiGI8HAbbi-PutOtObtTwYw5tjThqBeUR-1Fz0bpcR8oBL3yCcls4FDRMYyb2s2Nhla1F5dPUV8TGPe30LO4gbxIGqBS)
 ### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/admindashboard.png?raw=true)
+![dashboard snap](https://lh4.googleusercontent.com/izLnc6XtnOG0e1R9yJjP14cSn2il5tj2SmwqPf1F67MnxMU2NYl_DTwOvcFUrONSVmoGbKjvIMo-nMa4iSsRgDjbYz-v3cQ-6xyEZpuXsaD_ruX-MREG4ixswfIl2yGQXIajxMVj)
 ### Blood Donation 
-![invoice snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/blooddonation.png?raw=true)
+![invoice snap](https://lh6.googleusercontent.com/LdEBnraKENwDiVJVYxiO7qOtngaOgISAfo2Vo3z8ldOXkyxNJoWanY6CwascoTEL_UyaCQ7ev7Oy_SO81xuy0auNK6CCzznQX-7zpyM0yxH3IyeHp0Ms_efUl8F6eF_uFJAfZFOM)
 ### Blood Request
-![doctor snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/bloodrequest.png?raw=true)
+![doctor snap](https://lh4.googleusercontent.com/iscCLmSH1m8rnJy-pRUdt5IHAs55wuQtCRZZfSiTymyxh4KKrLlwr4Bck0y9CIR8gw0I8FNhx_ICO1eFkAQU10jU4XSyA1zQ9PbWv9gYA0mCp9VQAKuK5NEMkbOyDF42S1fbNbaE)
 ### Logout
-![doctor snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/logout.png?raw=true)
+![doctor snap](https://lh6.googleusercontent.com/GHy7D0uyKS-FJ_Qi8XQOpgSgrn2XI6Uw3LhklxokdmdDM4C0PAOh4e8FQku8DrwPOWy6d6qqepQ83egzV5smn39rVf5VE-D0MfN2gAop8H9g8lQAoFh8lQZFBD4-L2tKaysH-FWv)
 ---
 ## Functions
 
@@ -72,9 +72,3 @@ py manage.py runserver
 ```
 http://127.0.0.1:8000/
 ```
-
-
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
